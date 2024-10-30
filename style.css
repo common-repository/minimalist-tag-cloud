@@ -1,0 +1,51 @@
+div.sc-container {
+    display: table;
+    width: 100%;
+}
+
+div.sc-row  {
+    display: table-row;
+}
+
+div.sc-cell {
+    display: table-cell;
+    width: 50%;
+    padding: 2px;
+}
+
+div.sc-cell-full {
+    display: table-cell;
+    width: 100%;  
+    padding: 2px;
+}
+  
+.sc-container input {
+    width: 100%;
+}
+  
+.sc-info {
+    font-size: 80%;
+    font-style: italic;
+}
+  
+.sc-container input.input-number {
+    width: 50%;		
+}
+
+ul.wp-tag-cloud {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.wp-tag-cloud li a {
+    background: #f3f5f9;
+    border: 1px solid #d9dfe9;
+    padding: 0 10px;
+    color: #888;
+    border-radius: 6px;
+}
+
+span.sc-tagcount {
+    padding-left: 4px;
+    font-size: 80%;
+}
